@@ -1,0 +1,40 @@
+{
+  "name": "@typeservice/template-koa-radix",
+  "version": "1.0.0",
+  "description": "template: koa + radix",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "rm -rf dist/ && tsc -d",
+    "start": "pm2 start dist/index.js",
+    "restart": "pm2 restart",
+    "stop": "pm2 stop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typeservice/template-koa-radix.git"
+  },
+  "keywords": [
+    "typeservice",
+    "template",
+    "koa",
+    "radix",
+    "service",
+    "ipc",
+    "http"
+  ],
+  "author": "cevio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/typeservice/template-koa-radix/issues"
+  },
+  "homepage": "https://github.com/typeservice/template-koa-radix#readme",
+  "dependencies": {
+    "@typeservice/koa": "^1.0.4",
+    "@typeservice/radix": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.49",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
