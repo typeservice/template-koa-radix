@@ -16,10 +16,4 @@ $ npm run restart
 $ npm run stop
 ```
 
-<iframe
-  src="https://codesandbox.io/embed/github/typeservice/template-koa-radix/tree/master/?fontsize=14"
-  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-  title="@typeservice/template-koa-radix"
-  allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-  sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-></iframe>
+[![Edit @typeservice/template-koa-radix](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/typeservice/template-koa-radix/tree/master/?fontsize=14)
